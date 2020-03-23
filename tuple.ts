@@ -14,7 +14,12 @@ animal=["cat",2];//initialization
 //typescript allow values tp push without delcaration for added values like[string,number] 
 tup.push(23,"shivangi");
 tup.push(29,"mohsin");
+//tup.push(21,"krystle",true); it will shows an error
 
 //tuple array
 let veg:[string,number][];
 veg=[["brinjal",30],["potato",20],["Tomato",30]];
+
+//concatenation:array method #concat
+let nonveg:[string,number]=["chicken",100];
+nonveg[0]=nonveg[0].concat("fry");
