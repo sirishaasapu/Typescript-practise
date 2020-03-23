@@ -15,3 +15,6 @@ animal=["cat",2];//initialization
 tup.push(23,"shivangi");
 tup.push(29,"mohsin");
 
+//tuple array
+let veg:[string,number][];
+veg=[["brinjal",30],["potato",20],["Tomato",30]];
