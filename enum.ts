@@ -35,3 +35,12 @@ enum fruits{
 }
 fruits[300];//apple
   
+//2.String enum
+//String enums are similar to numeric enums, except that the enum values are initialized with string values rather than numeric values.
+enum fru{
+    firstname="sirisha",
+    lastname="asapu",
+    village="vilasavilli"
+}
+fru.firstname;//sirisha
+fru['village'];//vilasavilli
