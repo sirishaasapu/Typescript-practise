@@ -58,3 +58,17 @@ enum employee{
 employee.ename;//sirisha
 employee.id;//505
 employee.address;//2
+
+//reverse mapping//typescript supports reverse mapping
+enum PrintMedia {
+    Newspaper = 1,
+    Newsletter,
+    Magazine,
+    Book
+  }
+  
+  PrintMedia.Magazine;   // returns  3
+  PrintMedia["Magazine"];// returns  3
+  PrintMedia[3];         // returns  Magazine
+  PrintMedia.Newspaper;//1
+  
