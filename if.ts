@@ -11,3 +11,6 @@ else
 {
     console.log("z is greater");
 }
+
+//ternary operator 
+x>y?console.log("x"):console.log("y");
