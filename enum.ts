@@ -42,5 +42,19 @@ enum fru{
     lastname="asapu",
     village="vilasavilli"
 }
+//access
 fru.firstname;//sirisha
 fru['village'];//vilasavilli
+
+//3.hetrogenous
+//combo of both numeric and string
+
+enum employee{
+    ename="sirisha",
+    id=505,
+    address
+}
+//access
+employee.ename;//sirisha
+employee.id;//505
+employee.address;//2
