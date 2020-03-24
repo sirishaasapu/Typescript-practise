@@ -4,3 +4,6 @@ let animall :any="i am a dog";
 let anii=(animall as string).length;//here we cast it as a string
 //            (or)
 //let anim=(<string>animall).length;//we can also use <string> cast it as string
+
+//typeof operator to check the type of variable
+let hel=(typeof(animall));//string
