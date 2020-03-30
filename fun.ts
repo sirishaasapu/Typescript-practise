@@ -1,5 +1,5 @@
 /*Anonymous function */
-let hello=function(a:string,b:string)
+let hello=(a:string,b:string)=>
 {
 console.log(a+b);
 }
