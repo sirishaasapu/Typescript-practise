@@ -8,4 +8,10 @@ function add(a: any, b:any): any {
 add(10, 20); 
 add("hello","guys");
 add(12,3);
-
+//rest parameter
+function fun(a:string,...b:string[])
+{
+ return a+" "+b.join(",");
+}
+fun("hello","sirisha","asapu");
+fun("whatsup","guys");
