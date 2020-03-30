@@ -1,8 +1,11 @@
-/*Anonymous function */
-let hello=(a:string,b:string)=>
-{
-console.log(a+b);
+
+/*function overloading :multiple functions having same function name but difference in parameter type*/
+function add(a:number, b:number): number;
+function add(a:string,b:string):string;
+function add(a: any, b:any): any {
+    return a + b;
 }
-hello("hello","guys");
-hello("whatsup","");
+add(10, 20); 
+add("hello","guys");
+add(12,3);
 
