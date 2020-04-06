@@ -26,3 +26,19 @@ class gandhi extends hospital{//inherited class using extends keyword
 }
 let Gandhi=new gandhi("kanika kapoor",41,"female","covid-19");//object creation
 Gandhi.display();//method calling
+class kims extends gandhi{
+    constructor(name:string,age:number,gen:string,virus:string)
+    {
+        super(name,age,gen,virus);
+    }
+    display()
+    {
+        console.log(`patient name:${this.pname}
+        patient age:${this.page}
+        patient gender:${this.pgender}
+        suffering with:${this.virus}
+        `);   
+    }
+}
+let Kims=new kims("sara",29,"female","covid-19");
+Kims.display();
