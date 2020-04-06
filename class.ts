@@ -12,4 +12,5 @@ class car{
         +"<br>"+"cost of the car is:2,00,000";
     };
 }
-let bmw=new car("BMW","AP204321");
+let bmw=new car("BMW","AP204321");//object creation
+bmw.getdata();//method calling
