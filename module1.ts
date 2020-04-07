@@ -1,5 +1,5 @@
-import {car} from  './module';
-class honda extends car{
+import {car as carsss} from  './module';
+class honda extends carsss{
     constructor(name:string,num:string)
     {
       super(name,num);
